@@ -868,7 +868,7 @@ client.on('message' , message => {
 if (message.content === '%owner') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("**تم تطوير وبرمجه البوت من قبل :wrench: **","** Oh , 'Mr.Kayan.♕ ، ✩#0001**")
+      .addField("**تم تطوير وبرمجه البوت من قبل :wrench: **","**- |ƤokErr’? ƊȤ`sR ₉₅おー#1624**")
 .setColor('#B101FC')
   message.author.sendEmbed(embed);
     }
